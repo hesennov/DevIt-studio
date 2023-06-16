@@ -6,6 +6,7 @@ import AboutUs from "./pages/AboutUs";
 import Portofilo from "./pages/Portofilo";
 import TestimonIals from "./pages/TestimonIals";
 import Blog from "./pages/Blog";
+
 const App = () => {
   return (
     <>
