@@ -7,6 +7,9 @@ export default {
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },
+      fontSize: {
+        sm: "0.8rem", // Small
+      },
     },
   },
   plugins: [],
