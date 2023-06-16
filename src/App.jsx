@@ -1,14 +1,36 @@
-import React from "react";
-import Container from "./components/lib/Container/Container";
-import Navigation from "./constants/navigation";
+import Container from "./components/lib/Container/container";
+import Layout from "./components/layouts/layout";
+import Header from "./pages/Header";
+import Industries from "./pages/Industries";
+import AboutUs from "./pages/AboutUs";
+import Portofilo from "./pages/Portofilo";
+import TestimonIals from "./pages/TestimonIals";
+import Blog from "./pages/Blog";
 
 const App = () => {
   return (
     <>
-      <Container>
-        <Navigation />
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </Container>
+      <Navigation />
+      <Layout title={"Home"}>
+        <section>
+          <Header />
+        </section>
+        <section className={"mt-20"}>
+          <Industries />
+        </section>
+        <section className={"mt-20"}>
+          <AboutUs />
+        </section>
+        <section className={"mt-20"}>
+          <Portofilo />
+        </section>
+        <section className={"mt-20"}>
+          <TestimonIals />
+        </section>
+        <section className={"mt-20"}>
+          <Blog />
+        </section>
+      </Layout>
     </>
   );
 };
