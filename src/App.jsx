@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Layout title={"Home"}>
-        <section className={"mt-20"}>
+        <section className={"mt-24"}>
           <Header />
         </section>
         <section className={"mt-20"}>
