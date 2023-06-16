@@ -4,13 +4,14 @@ import Header from "./pages/Header";
 import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
 import Portofilo from "./pages/Portofilo";
-import TestimonIals from "./pages/TestimonIals";
+import Testimonials from "./pages/Testimonials";
+import Testiominoial from "./pages/Testiominoial";
 import Blog from "./pages/Blog";
 const App = () => {
   return (
     <>
       <Layout title={"Home"}>
-        <section>
+        <section className={"mt-24"}>
           <Header />
         </section>
         <section className={"mt-20"}>
@@ -23,7 +24,7 @@ const App = () => {
           <Portofilo />
         </section>
         <section className={"mt-20"}>
-          <TestimonIals />
+          <Testiominoial />
         </section>
         <section className={"mt-20"}>
           <Blog />

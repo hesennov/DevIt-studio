@@ -1,4 +1,4 @@
 const Header = () => {
-  return <div>Header</div>;
+  return <div className="h-screen  bg-red-400">Header</div>;
 };
 export default Header;

@@ -1,4 +1,4 @@
 const SectionEnd = () => {
-  return <div>SectionEnd</div>;
+  return <div className="h-screen ">SectionEnd</div>;
 };
 export default SectionEnd;

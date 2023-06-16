@@ -1,5 +1,6 @@
-const TestimonIals = () => {
-  return <div>TestimonIals</div>;
+const Testimonials = () => {
+  return;
+
+  <div className="h-screen ">TestimonIals</div>;
 };
-export default TestimonIals;
-//test
+export default Testimonials;

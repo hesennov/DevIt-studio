@@ -1,4 +1,4 @@
 const Portofilo = () => {
-  return <div>Portofilo</div>;
+  return <div className="h-screen "> Portofilo</div>;
 };
 export default Portofilo;
