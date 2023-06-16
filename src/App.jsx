@@ -2,28 +2,28 @@ import Container from "./components/lib/Container/container";
 import Layout from "./components/layouts/layout";
 import Header from "./pages/Header";
 import Industries from "./pages/Industries";
-import AboutUs from "./pages/AboutUs";
+import Abouts from "./pages/Abouts";
 import Portofilo from "./pages/Portofilo";
-import TestimonIals from "./pages/TestimonIals";
+import Testimonials from "./pages/Testimonials";
 import Blog from "./pages/Blog";
 const App = () => {
   return (
     <>
       <Layout title={"Home"}>
-        <section>
+        <section className={"mt-20"}>
           <Header />
         </section>
         <section className={"mt-20"}>
           <Industries />
         </section>
         <section className={"mt-20"}>
-          <AboutUs />
+          <Abouts />
         </section>
         <section className={"mt-20"}>
           <Portofilo />
         </section>
         <section className={"mt-20"}>
-          <TestimonIals />
+          <Testimonials />
         </section>
         <section className={"mt-20"}>
           <Blog />
