@@ -2,9 +2,10 @@ import Container from "./components/lib/Container/container";
 import Layout from "./components/layouts/layout";
 import Header from "./pages/Header";
 import Industries from "./pages/Industries";
-import Abouts from "./pages/Abouts";
+import AboutUs from "./pages/AboutUs";
 import Portofilo from "./pages/Portofilo";
 import Testimonials from "./pages/Testimonials";
+import Testiominoial from "./pages/Testiominoial";
 import Blog from "./pages/Blog";
 const App = () => {
   return (
@@ -17,13 +18,13 @@ const App = () => {
           <Industries />
         </section>
         <section className={"mt-20"}>
-          <Abouts />
+          <AboutUs />
         </section>
         <section className={"mt-20"}>
           <Portofilo />
         </section>
         <section className={"mt-20"}>
-          <Testimonials />
+          <Testiominoial />
         </section>
         <section className={"mt-20"}>
           <Blog />
