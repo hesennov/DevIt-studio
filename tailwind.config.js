@@ -11,7 +11,8 @@ export default {
         sm: "0.8rem",
       },
       spacing: {
-        30: "7.5rem",
+        30: "8rem",
+        50: "12rem",
       },
     },
   },

@@ -13,26 +13,16 @@ const App = () => {
   return (
     <>
       <div
+        className="relative pb-0 bg-cover bg-left-bottom bg-no-repeat z-[-1]"
         style={{
-          position: "relative", // Add relative positioning to the container
-          paddingBottom: "3.75rem", // Adjust the padding bottom as needed
           backgroundImage: `url(${ellipseImage1})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "left bottom",
           backgroundSize: "45%",
         }}
       >
         <div
+          className="absolute bg-contain w-full h-full bg-no-repeat bg-left-top sm:w-1/2 sm:h-1/2 z-[-1]"
           style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
             backgroundImage: `url(${ellipseImage2})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "top left",
-            backgroundSize: "40%",
           }}
         ></div>
         <Layout title={"Home"}>
@@ -40,19 +30,19 @@ const App = () => {
             <section>
               <Header />
             </section>
-            <section className={"mt-20"}>
+            <section className="mt-20">
               <Industries />
             </section>
-            <section className={"mt-20"}>
+            <section className="mt-20">
               <AboutUs />
             </section>
-            <section className={"mt-20"}>
+            <section className="mt-20">
               <Portofilo />
             </section>
-            <section className={"mt-20"}>
+            <section className="mt-20">
               <Testiominoial />
             </section>
-            <section className={"mt-20"}>
+            <section className="mt-20">
               <Blog />
             </section>
           </Container>
@@ -61,4 +51,5 @@ const App = () => {
     </>
   );
 };
+
 export default App;
