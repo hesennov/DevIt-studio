@@ -4,11 +4,11 @@ import logo from "../../../assets/logo-grey.png";
 const Navbar = () => {
   return (
     <>
-      <nav className="flex">
+      <nav className="flex justify-between">
         <div>
-          <img src={logo} alt="Logo" style={{ height: "95px" }} />
+          <img src={logo} alt="Logo" className="h-28" />
         </div>
-        <ul>
+        <ul className="flex gap-10 ">
           <li>
             <Link to="/"> Home</Link>
           </li>
