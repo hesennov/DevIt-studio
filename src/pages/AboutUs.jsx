@@ -1,8 +1,8 @@
 const AboutUs = () => {
   return (
-    <div className="h-screen bg-red-400">
+    <section id="about-section">
       <h1>AboutUs</h1>
-    </div>
+    </section>
   );
 };
 export default AboutUs;

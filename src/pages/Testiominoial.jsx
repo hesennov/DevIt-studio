@@ -1,6 +1,6 @@
 const Testiominoial = () => {
   return (
-    <div className="h-screen  bg-red-400">
+    <div >
       <h1>testiminoasdaisfksdgasdg</h1>
     </div>
   );
