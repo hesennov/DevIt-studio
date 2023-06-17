@@ -7,6 +7,7 @@ import Portofilo from "./pages/Portofilo";
 import Testimonials from "./pages/Testimonials";
 import Testiominoial from "./pages/Testiominoial";
 import Blog from "./pages/Blog";
+
 const App = () => {
   return (
     <>

@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
+import logo from "../../../assets/logo-grey.png";
+
 const Navbar = () => {
   return (
     <>
-      <nav className="flex justify-between bg-slate-700  p-10">
-        <h1>logo</h1>
-        <ul className="flex justify-between gap-20">
+      <nav className="flex">
+        <div>
+          <img src={logo} alt="Logo" style={{ height: "95px" }} />
+        </div>
+        <ul>
           <li>
             <Link to="/"> Home</Link>
           </li>
