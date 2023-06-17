@@ -8,7 +8,7 @@ const Header = () => {
         <h1 className="text-5xl" style={{ fontWeight: 700 }}>
           What we do?
         </h1>
-        <p className="pt-7 w-5/6 flex flex-right">
+        <p className="pt-7 w-5/6 flex flex-right" style={{ fontWeight: 300 }}>
           Crafting exceptional web solutions that empower businesses to thrive
           in the digital world. Our team of highly skilled developers,
           designers, and strategists work collaboratively to deliver stunning
