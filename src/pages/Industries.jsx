@@ -1,4 +1,4 @@
 const Industries = () => {
-  return <div>Industries</div>;
+  return <div className="h-screen ">Industries</div>;
 };
 export default Industries;
