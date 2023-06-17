@@ -1,4 +1,4 @@
 const Blog = () => {
-  return <div className="h-screen ">Blog</div>;
+  return <div className=" ">Blog</div>;
 };
 export default Blog;

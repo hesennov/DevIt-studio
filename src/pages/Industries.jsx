@@ -1,4 +1,8 @@
 const Industries = () => {
-  return <div className="h-screen ">Industries</div>;
+  return (
+    <section id="Industries-section" className=" ">
+      Industries
+    </section>
+  );
 };
 export default Industries;

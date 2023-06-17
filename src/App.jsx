@@ -51,9 +51,6 @@ const App = () => {
           <section className={"mt-20"}>
             <Testiominoial />
           </section>
-          <section className={"mt-20"}>
-            <Blog />
-          </section>
         </Layout>
       </div>
     </>
