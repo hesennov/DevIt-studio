@@ -3,7 +3,7 @@ import Layout from "./components/layouts/layout";
 import Header from "./pages/Header";
 import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
-import Portofilo from "./pages/Portofilo";
+// import Portofilo from "./pages/Portofilo";
 import Testimonials from "./pages/Testimonials";
 import Testiominoial from "./pages/Testiominoial";
 import Blog from "./pages/Blog";
@@ -23,7 +23,7 @@ const App = () => {
           <AboutUs />
         </section>
         <section className={"mt-20"}>
-          <Portofilo />
+          {/* <Portofilo /> */}
         </section>
         <section className={"mt-20"}>
           <Testiominoial />
