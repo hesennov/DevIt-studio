@@ -15,7 +15,7 @@ const App = () => {
       <div
         style={{
           position: "relative", // Add relative positioning to the container
-          paddingBottom: "60px", // Adjust the padding bottom as needed
+          paddingBottom: "3.75rem", // Adjust the padding bottom as needed
           backgroundImage: `url(${ellipseImage1})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "left bottom",
@@ -36,24 +36,26 @@ const App = () => {
           }}
         ></div>
         <Layout title={"Home"}>
-          <section>
-            <Header />
-          </section>
-          <section className={"mt-20"}>
-            <Industries />
-          </section>
-          <section className={"mt-20"}>
-            <AboutUs />
-          </section>
-          <section className={"mt-20"}>
-            <Portofilo />
-          </section>
-          <section className={"mt-20"}>
-            <Testiominoial />
-          </section>
-          <section className={"mt-20"}>
-            <Blog />
-          </section>
+          <Container className="my-container">
+            <section>
+              <Header />
+            </section>
+            <section className={"mt-20"}>
+              <Industries />
+            </section>
+            <section className={"mt-20"}>
+              <AboutUs />
+            </section>
+            <section className={"mt-20"}>
+              <Portofilo />
+            </section>
+            <section className={"mt-20"}>
+              <Testiominoial />
+            </section>
+            <section className={"mt-20"}>
+              <Blog />
+            </section>
+          </Container>
         </Layout>
       </div>
     </>
