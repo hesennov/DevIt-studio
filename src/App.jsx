@@ -4,7 +4,7 @@ import Header from "./pages/Header";
 import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
 import Portofilo from "./pages/Portofilo";
-import TestimonIals from "./pages/TestimonIals";
+import Testiominoial from "./pages/Testiominoial";
 import Blog from "./pages/Blog";
 import ellipseImage1 from "./assets/ellipse1.png";
 import ellipseImage2 from "./assets/ellipse2.png";
@@ -49,7 +49,7 @@ const App = () => {
             <Portofilo />
           </section>
           <section className={"mt-20"}>
-            <TestimonIals />
+            <Testiominoial />
           </section>
           <section className={"mt-20"}>
             <Blog />
