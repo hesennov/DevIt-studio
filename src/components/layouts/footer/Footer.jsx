@@ -16,7 +16,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="lg:py-24 text-black md:px-4 lg:px-24">
+    <footer className="py-24 lg:py-36 text-black md:px-4 lg:px-24">
       <div className="flex flex-col items-center md:flex-row md:justify-between">
         <div>
           <img

@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="md:px-4 flex items-center justify-between p-4 text-black lg:px-24 text-sm"
+      className="md:px-4 flex justify-between p-4 text-black lg:px-24 text-sm"
       style={{ fontWeight: 300 }}
     >
       <div>
