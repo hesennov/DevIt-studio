@@ -5,8 +5,7 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-
-import logo from "../../../assets/logo-grey.png";
+import logo from "../../../assets/logo-white.png";
 import { primaryColor } from "../../../constant/colors";
 
 const Footer = () => {
@@ -17,7 +16,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="py-8 text-black md:px-4 lg:px-24">
+    <footer className="lg:py-24 text-black md:px-4 lg:px-24">
       <div className="flex flex-col items-center md:flex-row md:justify-between">
         <div>
           <img
