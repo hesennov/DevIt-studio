@@ -30,7 +30,7 @@ const App = () => {
             <section>
               <Header />
             </section>
-            <section className="mt-20">
+            <section className="mt-0">
               <Industries />
             </section>
             <section className="mt-20">
