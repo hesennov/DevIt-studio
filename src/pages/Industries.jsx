@@ -14,7 +14,7 @@ const Industries = () => {
           <h3 className="text-lg" style={{ fontWeight: 400 }}>
             Design
           </h3>
-          <p className="text-sm pt-2" style={{ fontWeight: 300 }}>
+          <p className="text-sm pt-2 pb-5" style={{ fontWeight: 300 }}>
             Lorem ipsum dolor sit amet, conse adipiscing elit. Curabi sed metus
             id et viverra augue.
           </p>
@@ -28,7 +28,7 @@ const Industries = () => {
         />
         <div className="flex flex-col pl-4">
           <h3 className="text-lg">Development</h3>
-          <p className="text-sm pt-2" style={{ fontWeight: 300 }}>
+          <p className="text-sm pt-2 pb-5" style={{ fontWeight: 300 }}>
             Lorem ipsum dolor sit amet, conse adipiscing elit. Curabi sed metus
             id et viverra augue.
           </p>
@@ -40,7 +40,7 @@ const Industries = () => {
           <h3 className="text-lg" style={{ fontWeight: 400 }}>
             CMS
           </h3>
-          <p className="text-sm pt-2" style={{ fontWeight: 300 }}>
+          <p className="text-sm pt-2 pb-5" style={{ fontWeight: 300 }}>
             Lorem ipsum dolor sit amet, conse adipiscing elit. Curabi sed metus
             id et viverra augue.
           </p>
