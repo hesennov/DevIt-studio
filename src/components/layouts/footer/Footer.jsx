@@ -6,7 +6,6 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import logo from "../../../assets/logo-white.png";
-import { primaryColor } from "../../../constant/colors";
 
 const Footer = () => {
   const socialMediaPlatforms = [
@@ -59,7 +58,7 @@ const Footer = () => {
             <li className="mb-3">Subscribe</li>
             <form className="flex">
               <input
-                className={`border rounded-lg py-1 px-3 text-gray-300 text-xs bg-${primaryColor} md:w-48 md:mr-1`}
+                className={`border rounded-lg py-1 px-3 text-gray-300 text-xs md:w-48 md:mr-1`}
                 type="email"
                 placeholder="Your Email"
               />
