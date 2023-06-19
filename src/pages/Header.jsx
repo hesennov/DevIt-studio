@@ -32,7 +32,7 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div className="pt-2 sm:pt-7 md:pt-60 lg:pt-20 xl:pt-25 w-full md:w-1/2 md:pl-20">
+      <div className="pt-2 sm:pt-7 md:pt-60 lg:pt-20 xl:pt-25 md:w-1/2 md:pl-10">
         <img src={headerImage} alt="" style={{ width: "600px" }} />
       </div>
     </div>
