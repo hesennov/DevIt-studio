@@ -1,6 +1,6 @@
 import { headerColor } from "../constant/colors";
 import { primaryColor } from "../constant/colors";
-import headerImage from "../assets/headerImage.png";
+import headerImage from "../assets/juicy-girl-and-guy-preparing-start-up-rocket-to-launch-with-ideas.gif";
 
 const Header = () => {
   return (
@@ -32,8 +32,8 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div className="pt-2 sm:pt-7 md:pt-60 lg:pt-30 xl:pt-25 w-full md:w-1/2">
-        <img src={headerImage} alt="" />
+      <div className="pt-2 sm:pt-7 md:pt-60 lg:pt-20 xl:pt-25 w-full md:w-1/2 md:pl-20">
+        <img src={headerImage} alt="" style={{ width: "600px" }} />
       </div>
     </div>
   );
