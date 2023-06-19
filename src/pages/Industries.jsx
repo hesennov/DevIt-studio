@@ -6,7 +6,7 @@ const Industries = () => {
   return (
     <section
       id="Industries-section"
-      className="md:flex md:justify-center md:pt-10 lg:pt-0"
+      className="md:flex md:justify-center md:pt-20 lg:pt-0"
     >
       <div className="flex flex-row">
         <img src={design} alt="design" className="w-10 h-10 sm:w-12 sm:h-12" />
