@@ -4,13 +4,12 @@ import cms from "../assets/cms.png";
 
 const Industries = () => {
   return (
-    <section id="Industries-section" className="flex justify-center py-10">
+    <section
+      id="Industries-section"
+      className="md:flex md:justify-center md:pt-10 lg:pt-0"
+    >
       <div className="flex flex-row">
-        <img
-          src={design}
-          alt="design"
-          style={{ width: "40px", height: "40px" }}
-        />
+        <img src={design} alt="design" className="w-10 h-10 sm:w-12 sm:h-12" />
         <div className="flex flex-col pl-4">
           <h3 className="text-lg" style={{ fontWeight: 400 }}>
             Design
@@ -28,7 +27,7 @@ const Industries = () => {
           style={{ width: "40px", height: "40px" }}
         />
         <div className="flex flex-col pl-4">
-          <h3 className="text-lg">Custom Development</h3>
+          <h3 className="text-lg">Development</h3>
           <p className="text-sm pt-2" style={{ fontWeight: 300 }}>
             Lorem ipsum dolor sit amet, conse adipiscing elit. Curabi sed metus
             id et viverra augue.
@@ -39,7 +38,7 @@ const Industries = () => {
         <img src={cms} alt="cms" style={{ width: "40px", height: "40px" }} />
         <div className="flex flex-col pl-4">
           <h3 className="text-lg" style={{ fontWeight: 400 }}>
-            Content Management System
+            CMS
           </h3>
           <p className="text-sm pt-2" style={{ fontWeight: 300 }}>
             Lorem ipsum dolor sit amet, conse adipiscing elit. Curabi sed metus
