@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="md:px-4 flex justify-between p-4 text-black lg:px-24 text-sm"
+      className="md:px-4 flex justify-between  text-black lg:px-24 text-sm z-40 bg-gradient-to-r from-pink-100 via-blue-50 to-white "
       style={{ fontWeight: 300 }}
     >
       <div>
