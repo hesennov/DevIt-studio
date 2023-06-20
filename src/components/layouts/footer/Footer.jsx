@@ -47,9 +47,9 @@ const Footer = () => {
               <Link to="/contact">Contact Us</Link>
             </li>
             <div className="leading-6" style={{ fontWeight: 200 }}>
-              <li className="mb-2">Address:</li>
-              <li className="mb-2">Phone:</li>
-              <li>E-mail:</li>
+              <li className="mb-2">Address: Baku azerbaijan</li>
+              <li className="mb-2">Phone: 999 99 999 99 99</li>
+              <li>E-mail: ipsum@lorem.mail</li>
             </div>
           </ul>
         </div>

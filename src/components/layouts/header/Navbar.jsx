@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="md:px-4 flex justify-between  text-black lg:px-24 text-sm z-40 bg-gradient-to-r from-pink-100 via-blue-50 to-white "
+      className="md:px-4 flex justify-between  text-black lg:px-24 text-sm z-40 bg-gradient-to-r from-pink-50 via-blue-50 to-white "
       style={{ fontWeight: 300 }}
     >
       <div>
@@ -32,7 +32,7 @@ const Navbar = () => {
           <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link to="/news">News</Link>
+          <Link to="/blogs">Blogs</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
