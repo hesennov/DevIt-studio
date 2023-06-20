@@ -2,7 +2,7 @@ import Blogphoto from '../../assets/blog-details1.jpg'
 import Blogphoto1 from '../../assets/blog-big-4.jpg'
 import Blogphoto2  from '../../assets/blog-sm-5.jpg'
 import { useState } from "react";
-
+import Container from "../../components/lib/container/Container";
 const DetailWiev = () => {
      const [state] = useState({
        web: 26,
@@ -18,8 +18,8 @@ const DetailWiev = () => {
      });
 
   return (
-    <>
-      <div className="container flex my-10 mx-auto max-sm:flex-col max-sm:my-0 max-sm:mx-auto max-sm:px-4  sm:flex-col  md:flex-row justify-between mt-14 pt-24 min-h-screen">
+    <Container>
+      <div className="container flex my-10 mx-auto max-sm:flex-col max-sm:my-0 max-sm:mx-auto max-sm:px-4  sm:flex-col  md:flex-row justify-between mt-14 pt-10 min-h-screen">
         <div className="container max-sm:w-full  main w-4/6">
           <img
             src={Blogphoto}
@@ -200,7 +200,7 @@ const DetailWiev = () => {
           </div>
         </div>
       </div>
-    </>
+    </Container>
   );
 };
 export default DetailWiev;
