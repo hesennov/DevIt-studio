@@ -3,7 +3,7 @@ import React from "react";
 
 const BlogPage = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="pt-14 min-h-screen">
         <div className="container  mx-auto ">
           <h1 className="container text-3xl  flex justify-center pb-16 max-sm:pt-14 max-sm:pb-14">
             Blogs
