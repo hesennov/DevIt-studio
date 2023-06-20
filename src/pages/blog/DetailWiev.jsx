@@ -1,34 +1,54 @@
+import Blogphoto from '../../assets/blog-details1.jpg'
+import Blogphoto1 from '../../assets/blog-big-4.jpg'
+import Blogphoto2  from '../../assets/blog-sm-5.jpg'
+import { useState } from "react";
+
 const DetailWiev = () => {
+     const [state] = useState({
+       web: 26,
+       development: 15,
+       branding: 20,
+       motion: 18,
+       uiux: 30,
+       graphic: 99,
+       user: "Alextina",
+       clock: "MARCH.23.2003",
+       comment: 21,
+       eye: 1.426,
+     });
+
   return (
     <>
-      <div className="container flex my-10 mx-auto max-sm:flex-col max-sm:my-0 max-sm:mx-auto max-sm:px-4  sm:flex-col  md:flex-row justify-between mt-14 pt-24">
+      <div className="container flex my-10 mx-auto max-sm:flex-col max-sm:my-0 max-sm:mx-auto max-sm:px-4  sm:flex-col  md:flex-row justify-between mt-14 pt-24 min-h-screen">
         <div className="container max-sm:w-full  main w-4/6">
-          <Image
-            className="relative w-full max-sm:w-full mb-10"
+          <img
             src={Blogphoto}
             alt=""
-            width={800}
-            height={800}
+            className="relative w-full max-sm:w-full mb-10"
           />
           {/* icon */}
           <div className=" flex sm:flex-wrap sm:gap-x-12 sm:gap-y-4   max-sm:flex-col mb-10 ">
             <div className="flex sm:gap-20 max-sm:gap-12">
               <div className="flex items-center gap-1">
-                <Icon icon={IconsType.Usericon} className="w-3.5 h-3.5" />
+                {/* <Icon icon={IconsType.Usericon} className="w-3.5 h-3.5" /> */}
+                icon
                 <span>{state.user}</span>
               </div>
               <div className="flex items-center gap-1">
-                <Icon icon={IconsType.Clockicon} className="w-3.5 h-3.5" />
+                icon
+                {/* <Icon icon={IconsType.Clockicon} className="w-3.5 h-3.5" /> */}
                 <span>{state.clock}</span>
               </div>
             </div>
             <div className="flex sm:gap-20 max-sm:gap-12 ">
               <div className="flex items-center gap-1">
-                <Icon icon={IconsType.Comments} className="w-3.5 h-3.5" />
+                icon{" "}
+                {/* <Icon icon={IconsType.Comments} className="w-3.5 h-3.5" /> */}
                 <span>{state.comment} Comment</span>
               </div>
               <div className="flex items-center gap-1">
-                <Icon icon={IconsType.Eye} className="w-3.5 h-3.5" />
+                icon{" "}
+                {/* <Icon icon={IconsType.Eye} className="w-3.5 h-3.5" /> */}
                 <span>{state.eye} VIEWS</span>
               </div>
             </div>
@@ -61,20 +81,8 @@ const DetailWiev = () => {
             </p>
           </div>
           <div className="imgs flex gap-20 max-sm:gap-7 mb-5 mt-12 max-xl:flex-col justify-between">
-            <Image
-              className="w-full max-xl:w-full "
-              src={Blogphoto2}
-              alt=""
-              width={100}
-              height={400}
-            />
-            <Image
-              className="w-full max-xl:w-full  "
-              src={Blogphoto1}
-              alt=""
-              width={2000}
-              height={800}
-            />
+            <img className="w-full max-xl:w-full " src={Blogphoto2} alt="" />
+            <img className="w-full max-xl:w-full  " src={Blogphoto1} alt="" />
           </div>
           <div className="buttons-container flex justify-between max-sm:flex-col">
             <div className="buttons flex flex-wrap  max-sm:mb-8">
@@ -95,16 +103,20 @@ const DetailWiev = () => {
             <div className="share flex  items-center gap-x-2 ">
               <h1>Share</h1>
               <a href="#">
-                <Icon icon={IconsType.Linkedinicon} className="w-3.5 h-3.5" />
+                icon
+                {/* <Icon icon={IconsType.Linkedinicon} className="w-3.5 h-3.5" /> */}
               </a>
               <a href="#">
-                <Icon icon={IconsType.Twittericon} className="w-3.5 h-3.5" />
+                icon{" "}
+                {/* <Icon icon={IconsType.Twittericon} className="w-3.5 h-3.5" /> */}
               </a>
               <a href="#">
-                <Icon icon={IconsType.Facebookicon} className="w-3.5 h-3.5" />
+                icon{" "}
+                {/* <Icon icon={IconsType.Facebookicon} className="w-3.5 h-3.5" /> */}
               </a>
               <a href="#">
-                <Icon icon={IconsType.Pinteresticon} className="w-3.5 h-3.5" />
+                icon{" "}
+                {/* <Icon icon={IconsType.Pinteresticon} className="w-3.5 h-3.5" /> */}
               </a>
             </div>
           </div>
@@ -113,12 +125,10 @@ const DetailWiev = () => {
           <div className="recent-post  mb-20 flex flex-col pl-12 max-sm:pl-0">
             <h1 className=" mb-4  ">Recent Post</h1>
             <div className="flex  max-w-xs mb-3 max-sm:h-28">
-              <Image
+              <img
                 className="rounded-xl max-sm:w-32 "
                 src={Blogphoto2}
                 alt=""
-                width={100}
-                height={400}
               />
               <div className="m-2">
                 <p className="text-xs">FEBRUARY.20.2022</p>
@@ -128,13 +138,7 @@ const DetailWiev = () => {
               </div>
             </div>
             <div className="flex max-w-xs mb-3 max-sm:h-28">
-              <Image
-                className="rounded-xl max-sm:w-32 "
-                src={Blogphoto}
-                alt=""
-                width={100}
-                height={400}
-              />
+              <img className="rounded-xl max-sm:w-32 " src={Blogphoto} alt="" />
               <div className="m-2">
                 <p className="text-xs">FEBRUARY.20.2022</p>
                 <a href="#">
@@ -143,12 +147,10 @@ const DetailWiev = () => {
               </div>
             </div>
             <div className="flex max-w-xs  max-sm:h-28">
-              <Image
+              <img
                 className="rounded-xl max-sm:w-32 "
                 src={Blogphoto1}
                 alt=""
-                width={100}
-                height={400}
               />
               <div className="m-2">
                 <p className="text-xs">MARCH.20.2022</p>
