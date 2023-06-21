@@ -44,9 +44,6 @@ const Layout = () => {
           <section className="mt-20">
             <Blog />
           </section>
-          <section>
-            <BlogPage />
-          </section>
         </Container>
       </div>
     </>
