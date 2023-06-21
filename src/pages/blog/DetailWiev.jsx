@@ -1,21 +1,23 @@
-import Blogphoto from '../../assets/blog-details1.jpg'
-import Blogphoto1 from '../../assets/blog-big-4.jpg'
-import Blogphoto2  from '../../assets/blog-sm-5.jpg'
+import Blogphoto from "../../assets/blog-details1.jpg";
+import Blogphoto1 from "../../assets/blog-big-4.jpg";
+import Blogphoto2 from "../../assets/blog-sm-5.jpg";
 import { useState } from "react";
 import Container from "../../components/lib/container/Container";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const DetailWiev = () => {
-     const [state] = useState({
-       web: 26,
-       development: 15,
-       branding: 20,
-       motion: 18,
-       uiux: 30,
-       graphic: 99,
-       user: "Alextina",
-       clock: "MARCH.23.2003",
-       comment: 21,
-       eye: 1.426,
-     });
+  const [state] = useState({
+    web: 26,
+    development: 15,
+    branding: 20,
+    motion: 18,
+    uiux: 30,
+    graphic: 99,
+    user: "Alextina",
+    clock: "MARCH.23.2003",
+    comment: 21,
+    eye: 1.426,
+  });
 
   return (
     <Container>
@@ -27,6 +29,7 @@ const DetailWiev = () => {
             className="relative w-full max-sm:w-full mb-10"
           />
           {/* icon */}
+          <FontAwesomeIcon icon="fa-solid fa-check-square" />
           <div className=" flex sm:flex-wrap sm:gap-x-12 sm:gap-y-4   max-sm:flex-col mb-10 ">
             <div className="flex sm:gap-20 max-sm:gap-12">
               <div className="flex items-center gap-1">

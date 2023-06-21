@@ -1,4 +1,5 @@
 import Container from "./components/lib/Container/container";
+import NotFoundPage from "./components/lib/notFound/NotFoundPage";
 import Header from "./pages/Header";
 import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/" element={<Layout />} />
         <Route path="/blogs" element={<BlogPage />} />
         <Route path="/blogs/123" element={<DetailWiev />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
     </>
