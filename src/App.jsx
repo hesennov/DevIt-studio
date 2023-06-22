@@ -12,6 +12,7 @@ import Navbar from "./components/layouts/header/Navbar";
 import Footer from "./components/layouts/footer/Footer";
 import Layout from "./Layout";
 import { Routes, Route } from "react-router-dom";
+
 const App = () => {
   return (
     <>

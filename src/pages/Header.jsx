@@ -5,15 +5,15 @@ import headerImage from "../assets/juicy-girl-and-guy-preparing-start-up-rocket-
 const Header = () => {
   return (
     <div className="flex flex-col md:justify-around md:flex-row lg:flex-row">
-      <div className={`pt-20 md:pt-40 lg:pt-40 xl:pt-60 md:w-1/2`}>
+      <div className={`pt-20 md:pt-20 lg:pt-40 xl:pt-40 md:w-1/2`}>
         <h1
-          className="text-5xl pt-20 sm:pt-4 md:pt-8 lg:pt-2 xl:pt-2 lg:z-1"
+          className="text-5xl pt-4 sm:pt-4 md:pt-2 lg:pt-2 xl:pt-2 lg:z-1"
           style={{ fontWeight: 700, color: headerColor }}
         >
           What we do?
         </h1>
         <p
-          className="pt-12 sm:pt-7 lg:pt-7 md:w-5/6 flex"
+          className="pt-7 sm:pt-7 lg:pt-7 md:w-5/6 flex"
           style={{ fontWeight: 300 }}
         >
           Crafting exceptional web solutions that empower businesses to thrive
@@ -32,8 +32,8 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div className="pt-2 sm:pt-7 md:pt-60 lg:pt-20 xl:pt-25 md:w-1/2 md:pl-10">
-        <img src={headerImage} alt="" style={{ width: "600px" }} />
+      <div className="pt-2 sm:pt-7 md:pt-60 lg:pt-20 xl:pt-8 md:w-1/2 md:pl-10">
+        <img src={headerImage} alt="" style={{ width: "480px" }} />
       </div>
     </div>
   );

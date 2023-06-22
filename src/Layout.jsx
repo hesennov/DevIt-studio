@@ -8,28 +8,29 @@ import Blog from "./pages/Blog";
 import BlogPage from "./pages/blog/BlogPage";
 import ellipseImage1 from "./assets/ellipse1.png";
 import ellipseImage2 from "./assets/ellipse2.png";
+
 const Layout = () => {
   return (
     <>
       <div
-        className="relative pb-0 bg-cover bg-left-bottom bg-no-repeat z-[-1]"
-        style={{
-          backgroundImage: `url(${ellipseImage1})`,
-          backgroundSize: "45%",
-        }}
+      // className="relative pb-0 bg-cover bg-left-bottom bg-no-repeat z-[-1]"
+      // style={{
+      //   backgroundImage: `url(${ellipseImage1})`,
+      //   backgroundSize: "45%",
+      // }}
       >
         <div
-          className="absolute bg-contain w-full h-full bg-no-repeat bg-left-top sm:w-1/2 sm:h-1/2 z-[-1]"
-          style={{
-            backgroundImage: `url(${ellipseImage2})`,
-          }}
+        // className="absolute bg-contain w-full h-full bg-no-repeat bg-left-top sm:w-1/2 sm:h-1/2 z-[-1]"
+        // style={{
+        //   backgroundImage: `url(${ellipseImage2})`,
+        // }}
         ></div>
 
         <Container className="my-container">
           <section>
             <Header />
           </section>
-          <section className="mt-0">
+          <section className="mt-10">
             <Industries />
           </section>
           <section className="mt-20">
@@ -49,4 +50,5 @@ const Layout = () => {
     </>
   );
 };
+
 export default Layout;
