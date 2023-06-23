@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="md:px-4 flex justify-between  text-black lg:px-24 text-sm z-40 bg-gradient-to-r from-pink-50 via-blue-50 to-white "
+      className="px-6 md:px-8 flex justify-between text-black lg:px-24 text-sm z-40 bg-gradient-to-r from-pink-50 via-blue-50 to-white sticky top-0"
       style={{ fontWeight: 300 }}
     >
       <div>
@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="md:hidden">
         <button type="button" onClick={toggleMenu}>
           <svg
-            className="w-6 h-6 text-black"
+            className="w-6 h-6 my-8 text-black"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

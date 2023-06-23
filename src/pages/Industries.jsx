@@ -40,7 +40,7 @@ const Industries = () => {
           <h3 className="text-lg" style={{ fontWeight: 400 }}>
             CMS
           </h3>
-          <p className="text-sm pt-2 pb-5" style={{ fontWeight: 300 }}>
+          <p className="text-sm pt-2 pb-0" style={{ fontWeight: 300 }}>
             Lorem ipsum dolor sit amet, conse adipiscing elit. Curabi sed metus
             id et viverra augue.
           </p>
