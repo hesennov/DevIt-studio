@@ -10,7 +10,7 @@ const AboutUs = () => {
           src={aboutUs}
           alt="About Us"
           style={{ width: "2000px" }}
-          className="pr-24 pt-12"
+          className="pr-24 pt-10"
         />
       </div>
       <div className="text-container">
@@ -19,17 +19,19 @@ const AboutUs = () => {
           className="text-5xl pt-2 md:pt-2 lg:pt-2 xl:pt-2 lg:z-1 pt-20"
           style={{ fontWeight: 700, color: headerColor }}
         >
-          Design &amp; Develop For Better Solution
+          Design &amp; Develop
+          <br className="block" />
+          For Better Solution
         </h1>
         <p
           className="pt-7 sm:pt-7 lg:pt-7 md:w-5/6 pb-4"
           style={{ fontWeight: 300 }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies
-          lacus ut mauris consequat, sed efficitur mauris finibus. Nullam
-          lobortis dapibus ante, vitae congue massa bibendum ut. Suspendisse
-          auctor, est sit amet tempor placerat, risus erat consequat ligula, a
-          cursus nunc justo vel justo.
+          We believe in the power of collaboration and transparency. From the
+          initial consultation to project completion, we involve you at every
+          step of the development process. Our team takes the time to understand
+          your unique requirements, providing valuable insights and suggestions
+          to shape the perfect solution for your business.
         </p>
         <button
           className={`mt-3 px-8 py-3 rounded-xl text-white text-xs`}
