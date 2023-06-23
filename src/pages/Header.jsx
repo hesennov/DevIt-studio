@@ -13,7 +13,7 @@ const Header = () => {
           What we do?
         </h1>
         <p
-          className="pt-7 sm:pt-7 lg:pt-7 md:w-5/6 flex"
+          className="pt-7 sm:pt-7 lg:pt-7 md:w-5/6 flex text-center md:text-left lg:text-left"
           style={{ fontWeight: 300 }}
         >
           Crafting exceptional web solutions that empower businesses to thrive

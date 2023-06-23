@@ -4,19 +4,19 @@ import aboutUs from "../assets/dizzy-browser-window-with-the-code.gif";
 
 const AboutUs = () => {
   return (
-    <div className="about-us-container flex flex-row pt-0">
-      <div className="image-container">
+    <div className="flex flex-col md:flex-row lg:flex-row text-center md:text-left lg:text-left">
+      <div className="image-container flex items-center justify-center">
         <img
           src={aboutUs}
           alt="About Us"
-          style={{ width: "2000px" }}
-          className="pr-24 pt-10"
+          style={{ width: "2700px" }}
+          className="lg:pr-32 sm:pr-12 sm:pt-0 pt-0 md:pt-10 lg:pt-7 w-full md:w-full pb-8"
         />
       </div>
       <div className="text-container">
         <p className="uppercase text-xs pb-2">About us</p>
         <h1
-          className="text-5xl pt-2 md:pt-2 lg:pt-2 xl:pt-2 lg:z-1 pt-20"
+          className="text-5xl pt-2 md:pt-2 lg:pt-2 xl:pt-2 lg:z-1 text-center md:text-left lg:text-left"
           style={{ fontWeight: 700, color: headerColor }}
         >
           Design &amp; Develop
@@ -33,12 +33,14 @@ const AboutUs = () => {
           your unique requirements, providing valuable insights and suggestions
           to shape the perfect solution for your business.
         </p>
-        <button
-          className={`mt-3 px-8 py-3 rounded-xl text-white text-xs`}
-          style={{ fontWeight: 300, background: primaryColor }}
-        >
-          Learn more
-        </button>
+        <div className="mt-5 flex justify-center md:justify-start">
+          <button
+            className={`mt-3 px-8 py-3 rounded-xl text-white text-xs`}
+            style={{ fontWeight: 300, background: primaryColor }}
+          >
+            Learn more
+          </button>
+        </div>
       </div>
     </div>
   );
