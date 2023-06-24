@@ -11,10 +11,8 @@ const Industries = () => {
       <div className="flex flex-row">
         <img src={design} alt="design" className="w-10 h-10 sm:w-12 sm:h-12" />
         <div className="flex flex-col pl-4">
-          <h3 className="text-lg" style={{ fontWeight: 400 }}>
-            Design
-          </h3>
-          <p className="text-sm pt-2 pb-5" style={{ fontWeight: 300 }}>
+          <h3 className="text-lg font-normal">Design</h3>
+          <p className="text-sm pt-2 pb-5 font-light">
             Lorem ipsum dolor sit amet, conse adipiscing elit. Curabi sed metus
             id et viverra augue.
           </p>
@@ -37,10 +35,8 @@ const Industries = () => {
       <div className="flex flex-row">
         <img src={cms} alt="cms" style={{ width: "40px", height: "40px" }} />
         <div className="flex flex-col pl-4">
-          <h3 className="text-lg" style={{ fontWeight: 400 }}>
-            CMS
-          </h3>
-          <p className="text-sm pt-2 pb-0" style={{ fontWeight: 300 }}>
+          <h3 className="text-lg font-normal">CMS</h3>
+          <p className="text-sm pt-2 pb-0 font-light">
             Lorem ipsum dolor sit amet, conse adipiscing elit. Curabi sed metus
             id et viverra augue.
           </p>

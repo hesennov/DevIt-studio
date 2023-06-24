@@ -9,6 +9,7 @@ import Blog from "./pages/Blog";
 import BlogPage from "./pages/blog/BlogPage";
 import About from "./pages/about/About";
 import DetailWiev from "./pages/blog/DetailWiev";
+import Contact from "./pages/contact/Contact";
 import Navbar from "./components/layouts/header/Navbar";
 import Footer from "./components/layouts/footer/Footer";
 import Layout from "./Layout";
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/blogs" element={<BlogPage />} />
         <Route path="/blogs/123" element={<DetailWiev />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
