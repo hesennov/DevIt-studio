@@ -1,4 +1,5 @@
 import BlogCard from "../../components/lib/BlogCard";
+import React from "react";
 import { headerColor } from "../../constant/colors";
 
 const BlogPage = () => {
@@ -14,7 +15,7 @@ const BlogPage = () => {
         <div className="flex flex-col max-sm:mx-3">
           <div
             className={
-              "grid w-full xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7 mb-10"
+              "grid w-full xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7 mb-10 "
             }
           >
             <BlogCard
