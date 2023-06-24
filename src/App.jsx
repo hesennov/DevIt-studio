@@ -7,6 +7,7 @@ import Portofilo from "./pages/Portofilo";
 import Testiominoial from "./pages/Testiominoial";
 import Blog from "./pages/Blog";
 import BlogPage from "./pages/blog/BlogPage";
+import About from "./pages/about/About";
 import DetailWiev from "./pages/blog/DetailWiev";
 import Navbar from "./components/layouts/header/Navbar";
 import Footer from "./components/layouts/footer/Footer";
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/" element={<Layout />} />
         <Route path="/blogs" element={<BlogPage />} />
         <Route path="/blogs/123" element={<DetailWiev />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
