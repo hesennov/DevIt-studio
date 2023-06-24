@@ -5,9 +5,7 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-
-import logo from "../../../assets/logo-grey.png";
-import { primaryColor } from "../../../constant/colors";
+import logo from "../../../assets/logo-white.png";
 
 const Footer = () => {
   const socialMediaPlatforms = [
@@ -17,7 +15,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="py-8 text-black md:px-4 lg:px-24">
+    <footer className="py-24 lg:py-36 text-black md:px-4 lg:px-24">
       <div className="flex flex-col items-center md:flex-row md:justify-between">
         <div>
           <img
@@ -60,7 +58,7 @@ const Footer = () => {
             <li className="mb-3">Subscribe</li>
             <form className="flex">
               <input
-                className={`border rounded-lg py-1 px-3 text-gray-300 text-xs bg-${primaryColor} md:w-48 md:mr-1`}
+                className={`border rounded-lg py-1 px-3 text-gray-300 text-xs md:w-48 md:mr-1`}
                 type="email"
                 placeholder="Your Email"
               />

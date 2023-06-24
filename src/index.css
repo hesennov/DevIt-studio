@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
 
@@ -8,3 +9,5 @@
   --app-font: "Poppins", sans-serif;
   --app-font-weight: 400;
 }
+=======
+>>>>>>> 9a23df220d501c47792b7031eb9e3d08e4c431eb

@@ -8,7 +8,11 @@ export default {
         sans: ["Poppins", "sans-serif"],
       },
       fontSize: {
-        sm: "0.8rem", // Small
+        sm: "0.8rem",
+      },
+      spacing: {
+        30: "8rem",
+        50: "12rem",
       },
     },
   },
