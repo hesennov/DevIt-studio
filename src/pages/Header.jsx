@@ -7,7 +7,7 @@ const Header = () => {
     <div className="flex flex-col md:justify-around md:flex-row lg:flex-row">
       <div className="pt-6 md:pt-20 lg:pt-40 xl:pt-40 md:w-1/2">
         <h1
-          className="text-5xl pt-2 md:pt-2 lg:pt-2 xl:pt-2 lg:z-1"
+          className="text-5xl pt-2 md:pt-2 lg:pt-2 xl:pt-2 lg:z-1 text-center md:text-left lg:text-left"
           style={{ fontWeight: 700, color: headerColor }}
         >
           What we do?

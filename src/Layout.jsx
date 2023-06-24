@@ -5,6 +5,7 @@ import AboutUs from "./pages/AboutUs";
 import Portofilo from "./pages/Portofilo";
 import Testiominoial from "./pages/Testiominoial";
 import Blog from "./pages/Blog";
+import SectionEnd from "./pages/SectionEnd";
 import BlogPage from "./pages/blog/BlogPage";
 import ellipseImage1 from "./assets/ellipse1.png";
 import ellipseImage2 from "./assets/ellipse2.png";
@@ -44,6 +45,9 @@ const Layout = () => {
           </section>
           <section className="mt-20">
             <Blog />
+          </section>
+          <section className="mt-20">
+            <SectionEnd />
           </section>
         </Container>
       </div>
