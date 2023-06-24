@@ -1,9 +1,8 @@
 import { headerColor } from "../constant/colors";
 import { primaryColor } from "../constant/colors";
 import project1 from "../assets/project1.webp";
-import project2 from "../assets/project2.webp";
-import project3 from "../assets/project3.webp";
-import project4 from "../assets/project4.webp";
+import project2 from "../assets/project3.webp";
+import project3 from "../assets/project4.webp";
 
 const ProjectPortfolio = () => {
   return (
@@ -20,8 +19,8 @@ const ProjectPortfolio = () => {
             className="pt-4 sm:pt-4 lg:pt-4 pb-4 text-center lg:text-left"
             style={{ fontWeight: 300 }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit
-            amet.
+            Our project portfolio shows our accomplishments, skills, and
+            expertise in the industry.
           </p>
           <button
             className={`mb-3 rounded-xl text-xs uppercase`}
@@ -33,8 +32,8 @@ const ProjectPortfolio = () => {
       </div>
       <div className="projects grid md:grid-cols-3 lg:grid-cols-3 gap-4">
         <img src={project1} className="max-w-full" alt="Project1" />
-        <img src={project3} className="max-w-full" alt="Project3" />
-        <img src={project4} className="max-w-full" alt="Project4" />
+        <img src={project2} className="max-w-full" alt="Project3" />
+        <img src={project3} className="max-w-full" alt="Project4" />
       </div>
     </div>
   );
