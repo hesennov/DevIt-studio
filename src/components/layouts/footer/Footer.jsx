@@ -5,7 +5,7 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import logo from "../../../assets/logo-white.png";
+import logo from "../../../assets/logo-grey.png";
 
 const Footer = () => {
   const socialMediaPlatforms = [
