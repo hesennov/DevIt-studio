@@ -4,7 +4,7 @@ import Comp from "../../components/lib/three/Comp";
 import Computer from "../../components/lib/three/Computer";
 const About = () => {
   return (
-    <div className="  flex mt-50 mx-50 ">
+    <div className="  flex max-sm:flex-col mt-50 mx-50 max-sm:m-10 max-sm:text-center ">
       <div className="left flex-grow w-2/4">
         <h1 className="text-3xl text-stone-900 font-light">
           Empowering the World Through Code
@@ -28,7 +28,7 @@ const About = () => {
         </p>
       </div>
       <div className="right flex-grow w-2/4 pt-20 h-96">
-        <Canvas   camera={{ fov: 100, position: [4, 2, -1] }}>
+        <Canvas camera={{ fov: 100, position: [4, 2, -1] }}>
           <OrbitControls enableZoom={false} autoRotate={true} />
           <ambientLight intensity={1} />
           <directionalLight position={[3, 2, 1]} />
