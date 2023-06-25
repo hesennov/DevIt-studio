@@ -47,6 +47,7 @@ const ContactForm = () => {
 
     if (validateForm()) {
       // Here you can implement the logic to send the form data to a server or perform any desired action
+
       console.log("Form submitted:", formData);
       setFormData({
         name: "",
@@ -69,7 +70,9 @@ const ContactForm = () => {
         Contact Us
       </h1>
       {isSubmitted ? (
-        <div className="text-green-500">Thank you for your message!</div>
+        <div className="text-green-500 text-center">
+          Thank you for your message!
+        </div>
       ) : (
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
