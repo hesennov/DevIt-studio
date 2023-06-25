@@ -11,7 +11,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className="px-6 md:px-8 flex justify-between text-black lg:px-24 text-sm z-40 bg-gradient-to-r from-pink-50 via-blue-50 to-white sticky top-0"
+      className={`${
+        isMenuOpen ? "flex flex-col items-center text-2xl font-extralight text-center" : ""
+      } px-6 md:px-8 flex justify-between text-black lg:px-24 text-sm z-40 bg-gradient-to-r from-pink-50 via-blue-50 to-white sticky top-0`}
       style={{ fontWeight: 300 }}
     >
       <div>
@@ -19,7 +21,7 @@ const Navbar = () => {
       </div>
       <ul
         className={`${
-          isMenuOpen ? "block" : "hidden"
+          isMenuOpen ? "block " : "hidden"
         } md:flex md:items-center md:ml-24 md:space-x-16`}
       >
         <li>
@@ -28,9 +30,7 @@ const Navbar = () => {
         <li>
           <Link to="/about">About Us</Link>
         </li>
-        <li>
-          <Link to="/portfolio">Portfolio</Link>
-        </li>
+
         <li>
           <Link to="/blogs">Blogs</Link>
         </li>
