@@ -38,12 +38,7 @@ const Navbar = () => {
               <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-start min-w-[300px] md:min-w-[400px] min-h-full bg-black text-white px-6 py-6">
                 <div className="flex items-center justify-between w-full pb-5">
                   <Link to="/">
-                    <img
-                      src={logo}
-                      className="h-10"
-                      alt="Logo"
-                      style={{ height: "90px" }}
-                    />
+                    <img src={logo} alt="Logo" style={{ height: "90px" }} />
                   </Link>
                   <div
                     className="CROSS-ICON px-2 py-2"
@@ -98,14 +93,7 @@ const Navbar = () => {
                     Contact
                   </Link>
                 </li>
-                <li className="my-1">
-                  <Link
-                    to="/"
-                    className="cursor-pointer text-xs uppercase md:text-sm hover:text-indigo-600 font-semibold ease-in-out duration-300"
-                  >
-                    Faq
-                  </Link>
-                </li>
+                <li className="my-1"></li>
                 <h3 className="pt-10 pb-5 font-semibold text-sm md:text-md text-gray-500 uppercase">
                   Contact us
                 </h3>
