@@ -5,7 +5,7 @@ import headerImage from "../assets/juicy-girl-and-guy-preparing-start-up-rocket-
 const Header = () => {
   return (
     <div className="flex flex-col md:justify-around md:flex-row lg:flex-row">
-      <div className="pt-6 md:pt-20 lg:pt-40 md:w-1/2">
+      <div className="pt-8 md:pt-20 lg:pt-24 md:w-1/2">
         <h1
           className="text-5xl pt-2 md:pt-2 lg:pt-2 xl:pt-2 lg:z-1 text-center md:text-left lg:text-left font-bold"
           style={{ color: headerColor }}
@@ -29,8 +29,8 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div className="pt-2 sm:pt-7 md:pt-40 lg:pt-20 xl:pt-8 md:w-1/2 md:pl-10">
-        <img src={headerImage} alt="" style={{ width: "480px" }} />
+      <div className="pt-2 sm:pt-7 md:pt-40 lg:pt-24 xl:pt-8 md:w-1/2 md:pl-10">
+        <img src={headerImage} alt="" style={{ width: "450px" }} />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import project3 from "../assets/project4.webp";
 
 const ProjectPortfolio = () => {
   return (
-    <div>
+    <div className="pb-20">
       <div className="title-container flex flex-col lg:flex-row">
         <h1
           className="sm:whitespace-wrap md:whitespace-wrap lg:whitespace-nowrap text-5xl pt-2 md:pt-2 lg:pt-2 text-center md:text-center lg:text-left md:pr-0 lg:pr-16 font-bold"

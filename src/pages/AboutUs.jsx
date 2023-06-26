@@ -4,7 +4,7 @@ import aboutUs from "../assets/dizzy-browser-window-with-the-code.gif";
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row text-center md:text-left lg:text-left">
+    <div className="flex flex-col md:flex-row lg:flex-row text-center md:text-left lg:text-left pb-20">
       <div className="image-container flex items-center justify-center">
         <img
           src={aboutUs}
