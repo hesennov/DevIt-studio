@@ -171,13 +171,6 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li>
-              <Link to="/faq" className={""}>
-                <p className="cursor-pointer font-semibold text-gray-400 hover:text-indigo-600 ease-in-out duration-300">
-                  FAQ
-                </p>
-              </Link>
-            </li>
           </ul>
         </nav>
         <style>{`
@@ -199,12 +192,6 @@ const Navbar = () => {
         align-items: end;
       }
     `}</style>
-        <button
-          type="button"
-          className="hidden lg:inline-flex duration-300 ease-in-out w-full justify-center rounded-md shadow-lg bg-white px-10 font-bold py-5 text-base text-gray-700 hover:text-white hover:bg-indigo-600 active:bg-indigo-600 focus:outline-none focus:ring focus:bg-indigo-300 sm:mt-0 sm:ml-10 sm:w-auto sm:text-sm"
-        >
-          How It Works
-        </button>
       </div>
     </div>
   );
