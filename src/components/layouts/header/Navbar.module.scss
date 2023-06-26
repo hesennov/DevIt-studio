@@ -1,0 +1,43 @@
+.has_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.has_dropdown ul.submenu {
+  position: absolute;
+  background-color: black;
+  padding: 40px;
+  width: 270px;
+  transition: 0.3s;
+  opacity: 0;
+  top: 110%;
+  visibility: hidden;
+}
+
+.has_dropdown ul.submenu li {
+  color: white;
+}
+
+.has_dropdown:hover ul.submenu {
+  opacity: 1;
+  visibility: visible;
+  top: 242%;
+}
+
+.hideMenuNav {
+  display: none;
+}
+.showMenuNav {
+  position: absolute;
+  transition: all 0.3ms;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #000000ab;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
