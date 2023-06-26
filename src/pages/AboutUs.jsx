@@ -4,7 +4,7 @@ import aboutUs from "../assets/dizzy-browser-window-with-the-code.gif";
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row text-center md:text-left lg:text-left">
+    <div className="flex flex-col md:flex-row lg:flex-row text-center md:text-left lg:text-left pb-20">
       <div className="image-container flex items-center justify-center">
         <img
           src={aboutUs}
@@ -17,7 +17,7 @@ const AboutUs = () => {
         <p className="uppercase text-xs pb-2">About us</p>
         <h1
           className="text-5xl pt-2 md:pt-2 lg:pt-2 xl:pt-2 lg:z-1 text-center md:text-left lg:text-left font-bold"
-          style={{ color: headerColor }}
+          style={{ fontWeight: 700, color: headerColor }}
         >
           Design &amp; Develop
           <br className="block" />
