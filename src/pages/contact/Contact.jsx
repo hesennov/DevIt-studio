@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
 import { headerColor } from "../../constant/colors";
 import { primaryColor } from "../../constant/colors";
 
@@ -7,24 +7,25 @@ const ContactForm = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_kun5sis",
-        "template_pvzu7tt",
-        form.current,
-        "IAPCfIhTf9Q12j7YF"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("Thank you for your message!");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // // emailjs
+    // //   .sendForm(
+    // //     "service_kun5sis",
+    // //     "template_pvzu7tt",
+    // //     form.current,
+    // //     "IAPCfIhTf9Q12j7YF"
+    // //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       console.log("Thank you for your message!");
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
+    console.log("asdads");
   };
 
   return (
