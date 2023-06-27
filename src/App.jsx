@@ -1,4 +1,3 @@
-import Container from "./components/lib/Container/container";
 import NotFoundPage from "./components/lib/notFound/NotFoundPage";
 import Header from "./pages/Header";
 import Industries from "./pages/Industries";
