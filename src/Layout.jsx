@@ -1,4 +1,3 @@
-import Container from "./components/lib/Container/container";
 import Header from "./pages/Header";
 import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
