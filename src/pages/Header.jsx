@@ -1,6 +1,6 @@
 import { headerColor } from "../constant/colors";
-import { primaryColor } from "../constant/colors";
 import headerImage from "../assets/juicy-girl-and-guy-preparing-start-up-rocket-to-launch-with-ideas.gif";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,12 +21,11 @@ const Header = () => {
           turning your vision into reality.
         </p>
         <div className="mt-5 flex justify-center md:justify-start">
-          <button
-            className={`mt-3 px-8 py-3 rounded-xl text-white text-xs font-light`}
-            style={{ background: primaryColor }}
-          >
-            Get in Touch
-          </button>
+          <Link to="/contact">
+            <button className="mt-3 px-8 py-3 rounded-xl text-white text-xs font-light bg-indigo-400 hover:bg-indigo-500">
+              Get in Touch
+            </button>
+          </Link>
         </div>
       </div>
       <div className="pt-2 sm:pt-7 md:pt-40 lg:pt-24 xl:pt-8 md:w-1/2 md:pl-10 lg:pl-24">

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-primary-hover:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

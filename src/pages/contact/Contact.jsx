@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { headerColor } from "../../constant/colors";
-import { primaryColor } from "../../constant/colors";
 
 const ContactForm = () => {
   const form = useRef();
@@ -56,8 +55,7 @@ const ContactForm = () => {
         <input
           type="submit"
           value="Send"
-          className="`w-full flex mx-auto mt-8 px-6 py-3 rounded text-white text-xs font-light"
-          style={{ background: primaryColor }}
+          className="flex mx-auto mt-8 px-6 py-2 rounded text-white text-xs font-light bg-indigo-400 hover:bg-indigo-500"
         />
       </form>
     </div>
