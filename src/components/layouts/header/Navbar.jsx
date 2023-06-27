@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import logo from "../../../assets/logo-white.png";
 import styled from "./Navbar.module.scss";
 import { useState } from "react";
-import { headerColor } from "../../../constant/colors";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
