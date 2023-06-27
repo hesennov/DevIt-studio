@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 z-50">
+    <div className="top-0 z-50">
       <div className="lg:container mx-auto lg:pt-8">
         <div
           className={
@@ -122,7 +122,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to={`/email`}
-                      className="text-xs uppercase md:text-sm hover:text-indigo-600 font-semibold ease-in-out duration-300"
+                      className="text-xs uppercase md:text-sm hover:text-indigo-600 font-semibold ease-in-out dura18on-300"
                     >
                       office@gmail.com
                     </Link>
@@ -134,7 +134,7 @@ const Navbar = () => {
               <li className={styled.has_dropdown}>
                 <Link
                   to="/"
-                  className="pr-6 cursor-pointer font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
+                  className="pr-14 cursor-pointer font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
                 >
                   Home
                 </Link>
@@ -142,7 +142,7 @@ const Navbar = () => {
               <li className="mb-2">
                 <Link
                   to="/about"
-                  className="pr-6 cursor-pointer font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
+                  className="pr-14 cursor-pointer font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
                 >
                   About
                 </Link>
@@ -150,7 +150,7 @@ const Navbar = () => {
               <li className="mb-2">
                 <Link
                   to="/blogs"
-                  className="pr-6 font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
+                  className="pr-14 font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
                 >
                   Blog
                 </Link>
@@ -159,7 +159,7 @@ const Navbar = () => {
                 <Link
                   to="/contact"
                   className={
-                    "pr-6 font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
+                    "pr-14 font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
                   }
                 >
                   Contact
