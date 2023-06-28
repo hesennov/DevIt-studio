@@ -1,8 +1,8 @@
 import Header from "./pages/Header";
 import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
-import Portofilo from "./pages/Portfolio";
-import Testiominoial from "./pages/Testimonial";
+import Portfolio from "./pages/Portfolio";
+import Testimonial from "./pages/Testimonial";
 import SectionEnd from "./pages/SectionEnd";
 import Container from "./components/lib/container/Container";
 
@@ -19,10 +19,10 @@ const Layout = () => {
         <AboutUs />
       </section>
       <section className="mt-20">
-        <Portofilo />
+        <Portfolio />
       </section>
       <section className="mt-20">
-        <Testiominoial />
+        <Testimonial />
       </section>
       <section className="mt-20">
         <SectionEnd />

@@ -7,7 +7,7 @@ import Contact from "./pages/contact/Contact";
 import Navbar from "./components/layouts/header/Navbar";
 import Footer from "./components/layouts/footer/Footer";
 import Layout from "./Layout";
-import ProjectPortfolio from "./pages/Portfolio";
+import ProjectPage from "./pages/portfolio/ProjectPage";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<ProjectPortfolio />} />
+        <Route path="/portfolio" element={<ProjectPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/123" element={<DetailView />} />
         <Route path="/contact" element={<Contact />} />
