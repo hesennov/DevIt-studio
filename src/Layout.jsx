@@ -1,8 +1,8 @@
 import Header from "./pages/Header";
 import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
-import Portofilo from "./pages/Portofilo";
-import Testiominoial from "./pages/Testiominoial";
+import Portofilo from "./pages/Portfolio";
+import Testiominoial from "./pages/Testimonial";
 import SectionEnd from "./pages/SectionEnd";
 import Container from "./components/lib/container/Container";
 
