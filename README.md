@@ -7,6 +7,7 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
+* [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Project Status](#project-status)
 * [Contact](#contact)
@@ -26,7 +27,6 @@ In this demo project, you will find examples of our expertise in:
 
 ## Screenshots
 ![ezgif com-video-to-gif](https://github.com/hesennov/DevIt-studio/assets/74564476/2f46ae27-0e19-4aba-9845-d93784777953)
-
 
 ## Setup
 To run this demo project locally, please follow these steps:
