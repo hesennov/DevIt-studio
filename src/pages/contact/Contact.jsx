@@ -1,29 +1,29 @@
 import { useRef } from "react";
+import emailjs from "emailjs-com";
 import { headerColor } from "../../constant/colors";
 
 const ContactForm = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
 
-    // // emailjs
-    // //   .sendForm(
-    // //     "service_kun5sis",
-    // //     "template_pvzu7tt",
-    // //     form.current,
-    // //     "IAPCfIhTf9Q12j7YF"
-    // //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //       console.log("Thank you for your message!");
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
-    console.log("asdads");
+    emailjs
+      .sendForm(
+        "service_kun5sis",
+        "template_pvzu7tt",
+        form.current,
+        "IAPCfIhTf9Q12j7YF"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Email is sent successfully");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
@@ -55,7 +55,7 @@ const ContactForm = () => {
         <input
           type="submit"
           value="Send"
-          className="flex mx-auto mt-8 px-6 py-2 rounded text-white text-xs font-light bg-indigo-400 hover:bg-indigo-500"
+          className="`w-full flex mx-auto mt-8 px-6 py-3 rounded text-white text-xs font-light bg-indigo-400"
         />
       </form>
     </div>
