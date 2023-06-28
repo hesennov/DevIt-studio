@@ -44,4 +44,4 @@ To run this demo project locally, please follow these steps:
 Project is:  _complete_ 
 
 ## Contact
-Created by [@hesennov]([https://github.com/hesennov]) and [@saidam90]([https://github.com/saidam90]) - feel free to contact us.
+Created by [@hesennov](https://github.com/hesennov) and [@saidam90](https://github.com/saidam90) - feel free to contact us.
