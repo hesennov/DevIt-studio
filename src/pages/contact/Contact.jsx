@@ -55,7 +55,7 @@ const ContactForm = () => {
         <input
           type="submit"
           value="Send"
-          className="`w-full flex mx-auto mt-8 px-6 py-3 rounded text-white text-xs font-light bg-indigo-400"
+          className="`w-full flex mx-auto mt-8 px-6 py-3 rounded text-white text-xs font-light bg-indigo-400 hover:bg-indigo-700"
         />
       </form>
     </div>
