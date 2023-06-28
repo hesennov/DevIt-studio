@@ -38,7 +38,7 @@ To run this demo project locally, please follow these steps:
    
 `npm run dev`
 
-7. Open your web browser and navigate to `http://localhost:3000` to view the demo project.
+and navigate to the link to view the demo project.
 
 ## Project Status
 Project is:  _complete_ 
