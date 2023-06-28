@@ -1,6 +1,6 @@
 import { headerColor } from "../constant/colors";
-import { primaryColor } from "../constant/colors";
 import aboutUs from "../assets/dizzy-browser-window-with-the-code.gif";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -17,7 +17,7 @@ const AboutUs = () => {
         <p className="uppercase text-xs pb-2">About us</p>
         <h1
           className="text-5xl pt-2 md:pt-2 lg:pt-2 xl:pt-2 lg:z-1 text-center md:text-left lg:text-left font-bold"
-          style={{ fontWeight: 700, color: headerColor }}
+          style={{ color: headerColor }}
         >
           Design &amp; Develop
           <br className="block" />
@@ -31,12 +31,11 @@ const AboutUs = () => {
           to shape the perfect solution for your business.
         </p>
         <div className="mt-5 flex justify-center md:justify-start">
-          <button
-            className={`mt-3 px-8 py-3 rounded-xl text-white text-xs font-light`}
-            style={{ background: primaryColor }}
-          >
-            Learn more
-          </button>
+          <Link to="/about">
+            <button className="mt-2 px-8 py-3 rounded-xl text-white text-xs font-light bg-indigo-400 hover:bg-indigo-500">
+              Learn more
+            </button>
+          </Link>
         </div>
       </div>
     </div>

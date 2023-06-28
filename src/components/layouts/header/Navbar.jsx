@@ -2,13 +2,12 @@ import { Link } from "react-router-dom";
 import logo from "../../../assets/logo-white.png";
 import styled from "./Navbar.module.scss";
 import { useState } from "react";
-import { headerColor } from "../../../constant/colors";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 z-50">
+    <div className="top-0 z-50">
       <div className="lg:container mx-auto lg:pt-8">
         <div
           className={
@@ -106,7 +105,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/address"
-                      className="text-xs uppercase md:text-sm hover:text-indigo-600 font-semibold ease-in-out duration-300"
+                      className="text-xs uppercase md:text-sm hover:text-indigo-400 font-extralight ease-in-out duration-300"
                     >
                       Azerbaijan, AZ1001
                     </Link>
@@ -114,7 +113,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to={`tel:`}
-                      className="text-xs uppercase md:text-sm hover:text-indigo-600 font-semibold ease-in-out duration-300"
+                      className="text-xs uppercase md:text-sm hover:text-indigo-400 font-extralight ease-in-out duration-300"
                     >
                       +994 99 999 99 99
                     </Link>
@@ -122,7 +121,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to={`/email`}
-                      className="text-xs uppercase md:text-sm hover:text-indigo-600 font-semibold ease-in-out duration-300"
+                      className="text-xs uppercase md:text-sm hover:text-indigo-400 font-extralight ease-in-out duration-300"
                     >
                       office@gmail.com
                     </Link>
@@ -134,7 +133,7 @@ const Navbar = () => {
               <li className={styled.has_dropdown}>
                 <Link
                   to="/"
-                  className="pr-6 cursor-pointer font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
+                  className="pr-14 cursor-pointer text-black hover:text-indigo-400 ease-in-out duration-300 font-light text-sm"
                 >
                   Home
                 </Link>
@@ -142,7 +141,7 @@ const Navbar = () => {
               <li className="mb-2">
                 <Link
                   to="/about"
-                  className="pr-6 cursor-pointer font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
+                  className="pr-14 cursor-pointer text-black hover:text-indigo-400 ease-in-out duration-300 font-light text-sm"
                 >
                   About
                 </Link>
@@ -150,7 +149,7 @@ const Navbar = () => {
               <li className="mb-2">
                 <Link
                   to="/blogs"
-                  className="pr-6 font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
+                  className="pr-14 text-black hover:text-indigo-400 ease-in-out duration-300 font-light text-sm"
                 >
                   Blog
                 </Link>
@@ -159,7 +158,7 @@ const Navbar = () => {
                 <Link
                   to="/contact"
                   className={
-                    "pr-6 font-semibold text-black hover:text-indigo-600 ease-in-out duration-300 font-extralight text-sm"
+                    "pr-14 text-black hover:text-indigo-400 ease-in-out duration-300 font-light text-sm"
                   }
                 >
                   Contact

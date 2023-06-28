@@ -82,7 +82,7 @@ const Footer = () => {
                     href={platform.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="ml-2"
+                    className="ml-2 hover:text-indigo-500"
                   >
                     <FontAwesomeIcon icon={platform.icon} size="lg" />
                   </a>
