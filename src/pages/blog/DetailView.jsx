@@ -2,7 +2,7 @@ import Blogphoto from "../../assets/blog-details1.jpg";
 import Blogphoto1 from "../../assets/blog-big-4.jpg";
 import Blogphoto2 from "../../assets/blog-sm-5.jpg";
 import { useState } from "react";
-import Container from "../../components/lib/container/Container";
+import Container from "../../components/lib/Container/Container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEye,
