@@ -1,4 +1,4 @@
-import { OrbitControls, Stage } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import Comp from "../../components/lib/three/Comp";
 import Container from "../../components/lib/container/Container";
@@ -29,16 +29,22 @@ const About = () => {
             excites us, and it propels us to grow with every project. While
             exploring the endless possibilities technology offers, we not only
             solve problems but also focus on enhancing user experiences and
-            adding value to people's lives. We believe that each line of code
-            tells a story, and together, we work to present that story in the
-            best possible way.
+            adding value to people&apos;s lives. We believe that each line of
+            code tells a story, and together, we work to present that story in
+            the best possible way.
           </p>
         </div>
         <div
-          className="w-full pt-5 sm:pt-20 lg:pt-20"
+          className="w-full pt-20 sm:pt-24 lg:pt-20"
           style={{ maxHeight: "50vh" }}
         >
-          <div style={{ position: "relative", paddingTop: "100%" }}>
+          <div
+            style={{
+              position: "relative",
+              paddingTop: "100%",
+              marginBottom: "-150px",
+            }}
+          >
             <Canvas
               camera={{ position: [0, 0, 8], near: 0.01, far: 100 }}
               style={{
@@ -62,13 +68,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <style jsx>{`
-        @media (max-width: 767px) {
-          .w-full.pt-5.sm\:pt-20.lg\:pt-20 {
-            padding-top: 5rem;
-          }
-        }
-      `}</style>
     </Container>
   );
 };
