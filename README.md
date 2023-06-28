@@ -1,5 +1,5 @@
-# Devvit Studio - Demo project
-> This project showcases the work and capabilities of Devvit Studio, a web development agency specializing in websites.
+# Devit Studio - Demo project
+> This project showcases the work and capabilities of Devit Studio, a web development agency specializing in websites.
 > Please note that this repository is for demonstration purposes only and does not represent a real-world project.
 > The code and content within this repository are meant to showcase the skills and expertise of the team.
 > Live demo [_here_](https://devvit-studio.netlify.app/).
@@ -28,7 +28,7 @@ In this demo project, you will find examples of our expertise in various areas o
 To run this demo project locally, please follow these steps:
 1. Clone this repository to your local machine using the following command:
    
-`git clone https://github.com/devvitstudio/demo-project.git`
+`git clone https://github.com/hesennov/DevIt-studio.git`
 
 3. Install the necessary dependencies by running the following command in the project directory:
    
@@ -36,7 +36,7 @@ To run this demo project locally, please follow these steps:
 
 5. Start the development server:
    
-`npm start`
+`npm run dev`
 
 7. Open your web browser and navigate to `http://localhost:3000` to view the demo project.
 
