@@ -1,4 +1,4 @@
-import BlogCard from "../../components/lib/blogCard";
+import BlogCard from "../../components/lib/blogCard/BlogCard";
 import { headerColor } from "../../constant/colors";
 
 const BlogPage = () => {
@@ -65,4 +65,5 @@ const BlogPage = () => {
     </div>
   );
 };
+
 export default BlogPage;
