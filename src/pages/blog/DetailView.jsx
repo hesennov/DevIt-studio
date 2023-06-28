@@ -5,10 +5,11 @@ import { useState } from "react";
 import Container from "../../components/lib/container/Container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+  faEye,
+  faUser,
+  faClock,
+  faComments,
+} from "@fortawesome/free-solid-svg-icons";
 
 const DetailView = () => {
   const [state] = useState({
@@ -24,52 +25,41 @@ const DetailView = () => {
     eye: 1.426,
   });
 
-  const socialMediaPlatforms = [
-    { icon: faFacebook, link: "https://www.facebook.com" },
-    { icon: faInstagram, link: "https://www.instagram.com" },
-    { icon: faTwitter, link: "https://www.twitter.com" },
-  ];
-
   return (
     <Container>
-      <div className="container flex my-10 mx-auto max-sm:flex-col max-sm:my-0 max-sm:mx-auto max-sm:px-4  sm:flex-col  md:flex-row justify-between mt-14 pt-4 min-h-screen">
-        <div className="container max-sm:w-full  main w-4/6">
+      <div className="container flex my-10 mx-auto max-sm:flex-col max-sm:my-0 max-sm:mx-auto max-sm:px-4 sm:flex-col  md:flex-row justify-between mt-14 pt-4 min-h-screen">
+        <div className="container max-sm:w-full main w-4/6">
           <img
             src={Blogphoto}
             alt=""
             className="relative w-full max-sm:w-full mb-10 border rounded"
           />
-          {/* icon */}
           <FontAwesomeIcon icon="fa-solid fa-check-square" />
-          <div className=" flex sm:flex-wrap sm:gap-x-12 sm:gap-y-4   max-sm:flex-col mb-10 ">
-            <div className="flex sm:gap-20 max-sm:gap-12">
+          <div className="flex sm:flex-wrap sm:gap-x-12 sm:gap-y-2 max-sm:flex-col mb-10 ">
+            <div className="flex justify-between md:justify-between sm:gap-20 max-sm:gap-12">
               <div className="flex items-center gap-1">
-                {/* <Icon icon={IconsType.Usericon} className="w-3.5 h-3.5" /> */}
-                icon
+                <FontAwesomeIcon icon={faUser} className="w-3.5 h-3.5" />
                 <span>{state.user}</span>
               </div>
               <div className="flex items-center gap-1">
-                icon
-                {/* <Icon icon={IconsType.Clockicon} className="w-3.5 h-3.5" /> */}
+                <FontAwesomeIcon icon={faClock} className="w-3.5 h-3.5" />
                 <span>{state.clock}</span>
               </div>
             </div>
-            <div className="flex sm:gap-20 max-sm:gap-12 ">
+            <div className="flex justify-between sm:gap-20 max-sm:gap-12 ">
               <div className="flex items-center gap-1">
-                icon{" "}
-                {/* <Icon icon={IconsType.Comments} className="w-3.5 h-3.5" /> */}
-                <span>{state.comment} Comment</span>
+                <FontAwesomeIcon icon={faComments} className="w-3.5 h-3.5" />
+                <span>{state.comment} comments</span>
               </div>
               <div className="flex items-center gap-1">
-                icon{" "}
-                {/* <Icon icon={IconsType.Eye} className="w-3.5 h-3.5" /> */}
+                <FontAwesomeIcon icon={faEye} className="w-3.5 h-3.5" />
                 <span>{state.eye} VIEWS</span>
               </div>
             </div>
           </div>
           <h3 className="text-lg md:text-xl lg:text-2xl xl:text-4xl font-bold my-5 ">
             How To Create A Vanilla JavaScript Gantt Chart: Adding Task Editing
-            Features (Part 2)
+            Features
           </h3>
           <div className="content">
             <p className="my-9">
@@ -108,7 +98,7 @@ const DetailView = () => {
           </div>
           <div className="buttons-container flex justify-between max-sm:flex-col">
             <div className="buttons flex flex-wrap  max-sm:mb-8">
-              <h1 className={"mx-4"}>Tag</h1>
+              <h1 className={"mx-4"}>Tags</h1>
               <button className="bg-transparent hover:bg-indigo-200 text-zinc-600 font-normal text-xs hover:text-black py-1 px-4 border hover:border-transparent rounded mx-2">
                 BUSINESS
               </button>
@@ -118,34 +108,16 @@ const DetailView = () => {
               <button className="bg-transparent hover:bg-indigo-200 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
                 APPS
               </button>
-              <button className="bg-transparent hover:bg-indigo-200 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2 max-sm:mt-3">
+              <button className="bg-transparent hover:bg-indigo-200 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
                 DATA
               </button>
             </div>
-            <div className="share flex items-center gap-x-2">
-              <div className="pt-4">
-                <p className="mb-2">Share</p>
-                <div className="flex md:justify-start">
-                  {socialMediaPlatforms.map((platform, index) => (
-                    <a
-                      key={index}
-                      href={platform.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="ml-2 hover:text-indigo-500"
-                    >
-                      <FontAwesomeIcon icon={platform.icon} size="lg" />
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-        <div className="leftbar w-2/6 md:w-1/6 lg:w-1/6 flex flex-col pl-0 sm:pl-16 md:pl-0 lg:pl-0 items-center mt-16">
-          <div className="recent-post mb-20 flex flex-col">
-            <h1 className="mb-4">Recent Post</h1>
-            <div className="flex  max-w-xs mb-3 max-sm:h-28">
+        <div className="leftbar w-3/6 sm:w-3/6 md:w-1/6 lg:w-1/6 flex flex-col sm:flex-row md:flex-col lg:mx-auto">
+          <div className="recent-post flex flex-col">
+            <h1 className="mb-4">Recent Posts</h1>
+            <div className="flex max-w-xs mb-3 max-sm:h-28">
               <img
                 className="rounded-xl max-sm:w-32 "
                 src={Blogphoto2}
@@ -181,47 +153,10 @@ const DetailView = () => {
               </div>
             </div>
           </div>
-          <div className="tags">
-            <h1 className="mb-5">Tags</h1>
-            <div className="buttons-container flex flex-col">
-              <div className="btngroup m-2 max-sm:flex">
-                {" "}
-                <button className="bg-transparent hover:bg-yellow-500 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
-                  LANDING
-                </button>
-                <button className="bg-transparent hover:bg-yellow-500 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
-                  CHARITY
-                </button>
-              </div>
-              <div className="btn-group2 m-2 max-sm:flex">
-                <button className="bg-transparent hover:bg-yellow-500 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
-                  APPS
-                </button>
-                <button className="bg-transparent hover:bg-yellow-500 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
-                  EDUCATION
-                </button>
-              </div>
-              <div className="btn-group3 m-2 max-sm:flex">
-                <button className="bg-transparent hover:bg-yellow-500 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
-                  DATA
-                </button>
-                <button className="bg-transparent hover:bg-yellow-500 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
-                  DESIGN
-                </button>
-              </div>
-              <div className="btn-group4 m-2 max-sm:flex">
-                <button className="bg-transparent hover:bg-yellow-500 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
-                  WEBSITE
-                </button>
-                <button className="bg-transparent hover:bg-yellow-500 text-zinc-600 font-normal text-xs hover:text-black py-1 px-3 border hover:border-transparent rounded mx-2">
-                  LANDING PAGE
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </Container>
   );
 };
+
 export default DetailView;
