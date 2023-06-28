@@ -5,6 +5,7 @@ import Portofilo from "./pages/Portofilo";
 import Testiominoial from "./pages/Testiominoial";
 import Blog from "./pages/Blog";
 import SectionEnd from "./pages/SectionEnd";
+import Container from "./components/lib/container/Container";
 
 const Layout = () => {
   return (
@@ -23,9 +24,6 @@ const Layout = () => {
       </section>
       <section className="mt-20">
         <Testiominoial />
-      </section>
-      <section className="mt-20">
-        <Blog />
       </section>
       <section className="mt-20">
         <SectionEnd />
