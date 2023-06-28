@@ -1,7 +1,7 @@
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import Comp from "../../components/lib/three/Comp";
-import Container from "../../components/lib/container/Container";
+import Container from "../../components/lib/Container/Container";
 import { headerColor } from "../../constant/colors";
 
 const About = () => {

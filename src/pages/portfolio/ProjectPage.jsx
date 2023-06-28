@@ -1,4 +1,4 @@
-import Container from "../../components/lib/container/Container";
+import Container from "../../components/lib/Container/Container";
 import { headerColor } from "../../constant/colors";
 import project1 from "../../assets/project1.webp";
 import project2 from "../../assets/project3.webp";

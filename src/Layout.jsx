@@ -4,7 +4,7 @@ import AboutUs from "./pages/AboutUs";
 import Portfolio from "./pages/Portfolio";
 import Testimonial from "./pages/Testimonial";
 import SectionEnd from "./pages/SectionEnd";
-import Container from "./components/lib/container/Container";
+import Container from "./components/lib/Container/Container";
 
 const Layout = () => {
   return (
