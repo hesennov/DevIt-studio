@@ -3,7 +3,6 @@ import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
 import Portofilo from "./pages/Portofilo";
 import Testiominoial from "./pages/Testiominoial";
-import Blog from "./pages/Blog";
 import SectionEnd from "./pages/SectionEnd";
 import Container from "./components/lib/container/Container";
 

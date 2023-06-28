@@ -1,4 +1,5 @@
 import { headerColor } from "../constant/colors";
+import { Link } from "react-router-dom";
 import project1 from "../assets/project1.webp";
 import project2 from "../assets/project3.webp";
 import project3 from "../assets/project4.webp";
@@ -18,9 +19,11 @@ const ProjectPortfolio = () => {
             Our project portfolio shows our accomplishments, skills, and
             expertise in the industry.
           </p>
-          <button className="mb-10 rounded-xl text-xs uppercase font-light text-indigo-400 hover:text-indigo-800">
-            View all &rarr;
-          </button>
+          <Link to="/portfolio">
+            <button className="mb-10 rounded-xl text-xs uppercase font-light text-indigo-400 hover:text-indigo-800">
+              View all &rarr;
+            </button>
+          </Link>
         </div>
       </div>
       <div className="projects grid md:grid-cols-3 lg:grid-cols-3 gap-4">
