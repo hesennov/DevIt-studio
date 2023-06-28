@@ -12,7 +12,7 @@
 * [Contact](#contact)
 
 ## General Information
-In this demo project, you will find examples of our expertise in various areas of web development, including:
+In this demo project, you will find examples of our expertise in:
 - Front-end development and responsive web design
 - Component-based architecture
 - State management with React hooks
@@ -23,6 +23,10 @@ In this demo project, you will find examples of our expertise in various areas o
 - React
 - Tailwind CSS
 - EmailJS
+
+## Screenshots
+![ezgif com-video-to-gif](https://github.com/hesennov/DevIt-studio/assets/74564476/2f46ae27-0e19-4aba-9845-d93784777953)
+
 
 ## Setup
 To run this demo project locally, please follow these steps:
