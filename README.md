@@ -2,7 +2,7 @@
 > This project showcases the work and capabilities of Devit Studio, a web development agency specializing in websites.
 > Please note that this repository is for demonstration purposes only and does not represent a real-world project.
 > The code and content within this repository are meant to showcase the skills and expertise of the team.
-> Live demo [_here_](https://devvit-studio.netlify.app/).
+> Live demo [_here_](https://devit-studio.netlify.app/).
 
 ## Table of Contents
 * [General Info](#general-information)
