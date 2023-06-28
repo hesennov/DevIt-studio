@@ -30,7 +30,7 @@ const AboutUs = () => {
           your unique requirements, providing valuable insights and suggestions
           to shape the perfect solution for your business.
         </p>
-        <div className="mt-5 flex justify-center md:justify-start">
+        <div className="mt-2 flex justify-center md:justify-start">
           <Link to="/about">
             <button className="mt-2 px-8 py-3 rounded-xl text-white text-xs font-light bg-indigo-400 hover:bg-indigo-500">
               Learn more

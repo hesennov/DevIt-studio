@@ -1,10 +1,10 @@
 import Header from "./pages/Header";
 import Industries from "./pages/Industries";
 import AboutUs from "./pages/AboutUs";
-import Portofilo from "./pages/Portofilo";
-import Testiominoial from "./pages/Testiominoial";
-import Blog from "./pages/Blog";
+import Portfolio from "./pages/Portfolio";
+import Testimonial from "./pages/Testimonial";
 import SectionEnd from "./pages/SectionEnd";
+import Container from "./components/lib/container/Container";
 
 const Layout = () => {
   return (
@@ -19,13 +19,10 @@ const Layout = () => {
         <AboutUs />
       </section>
       <section className="mt-20">
-        <Portofilo />
+        <Portfolio />
       </section>
       <section className="mt-20">
-        <Testiominoial />
-      </section>
-      <section className="mt-20">
-        <Blog />
+        <Testimonial />
       </section>
       <section className="mt-20">
         <SectionEnd />

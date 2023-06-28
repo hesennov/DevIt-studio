@@ -1,19 +1,19 @@
-import { OrbitControls } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
-import Comp from "../../components/lib/three/Comp";
 import Container from "../../components/lib/container/Container";
 import { headerColor } from "../../constant/colors";
+import project1 from "../../assets/project1.webp";
+import project2 from "../../assets/project3.webp";
+import project3 from "../../assets/project4.webp";
 
-const About = () => {
+const ProjectPage = () => {
   return (
     <Container>
-      <div className="flex flex-col md:flex-col lg:flex-row mx-auto text-center">
+      <div className="flex flex-col md:flex-col lg:flex-row mx-auto text-center lg:gap-20">
         <div className="md:w-full">
           <h1
             className="text-5xl pt-20 md:pt-20 lg:pt-20 lg:z-1 text-center font-bold"
             style={{ color: headerColor }}
           >
-            Empowering the World Through Code
+            Case studies
           </h1>
           <p className="font-extralight text-l pt-10">
             We are the developers who code the world. With mastery and finesse,
@@ -34,42 +34,16 @@ const About = () => {
             the best possible way.
           </p>
         </div>
-        <div
-          className="w-full pt-20 sm:pt-24 lg:pt-30 pl-0 sm:pl-0 md:pl-0 lg:pl-20"
-          style={{ maxHeight: "50vh" }}
-        >
-          <div
-            style={{
-              position: "relative",
-              paddingTop: "100%",
-              marginBottom: "-150px",
-            }}
-          >
-            <Canvas
-              camera={{ position: [0, 0, 8], near: 0.01, far: 100 }}
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-              }}
-            >
-              <OrbitControls
-                enableZoom={false}
-                autoRotate={true}
-                minPolarAngle={Math.PI / 4}
-                maxPolarAngle={Math.PI / 2}
-              />
-              <ambientLight intensity={1} />
-              <directionalLight position={[0, 1, 1]} />
-              <Comp />
-            </Canvas>
-          </div>
+        <div className="flex flex-row">
+          <img src={project1} alt="project1" className="pt-10" />
         </div>
+      </div>
+      <div className="flex flex-col w-full sm: w-full md:w-full lg:w-1/2 sm:flex-col lg:flex-row md:flex-col ">
+        <img src={project2} alt="project1" className="pt-10" />
+        <img src={project3} alt="project1" className="pt-10" />
       </div>
     </Container>
   );
 };
 
-export default About;
+export default ProjectPage;
