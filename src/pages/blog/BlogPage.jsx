@@ -1,4 +1,4 @@
-import BlogCard from "../../components/lib/BlogCard";
+import BlogCard from "../../components/lib/blogCard";
 import { headerColor } from "../../constant/colors";
 
 const BlogPage = () => {
