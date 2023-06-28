@@ -27,15 +27,18 @@ In this demo project, you will find examples of our expertise in various areas o
 ## Setup
 To run this demo project locally, please follow these steps:
 1. Clone this repository to your local machine using the following command:
+   
 `git clone https://github.com/devvitstudio/demo-project.git`
 
-2. Install the necessary dependencies by running the following command in the project directory:
+3. Install the necessary dependencies by running the following command in the project directory:
+   
 `npm install`
 
-3. Start the development server:
+5. Start the development server:
+   
 `npm start`
 
-4. Open your web browser and navigate to `http://localhost:3000` to view the demo project.
+7. Open your web browser and navigate to `http://localhost:3000` to view the demo project.
 
 ## Project Status
 Project is:  _complete_ 
