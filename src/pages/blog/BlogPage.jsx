@@ -9,7 +9,7 @@ const BlogPage = () => {
           className="container text-5xl flex justify-center pb-16 max-sm:pt-14 max-sm:pb-14 font-bold"
           style={{ color: headerColor }}
         >
-          Blogs
+          Blog
         </h1>
         <div className="flex flex-col max-sm:mx-3">
           <div

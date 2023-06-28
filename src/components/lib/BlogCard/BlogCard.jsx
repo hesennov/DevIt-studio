@@ -1,8 +1,9 @@
 import image from "../../../assets/blog-1.webp";
 import { Link } from "react-router-dom";
+
 function BlogCard({ title, span }) {
   return (
-    <Link to="/blogs/123">
+    <Link to="/blog/123">
       <div className="col-span-1 w-full rounded overflow-hidden shadow-lg bg-white">
         <div className="group cursor-pointer overflow-hidden">
           <img

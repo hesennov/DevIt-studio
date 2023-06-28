@@ -35,7 +35,7 @@ const About = () => {
           </p>
         </div>
         <div
-          className="w-full pt-20 sm:pt-24 lg:pt-20"
+          className="w-full pt-20 sm:pt-24 lg:pt-30 pl-0 sm:pl-0 md:pl-0 lg:pl-20"
           style={{ maxHeight: "50vh" }}
         >
           <div
