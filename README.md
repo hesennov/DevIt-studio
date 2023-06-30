@@ -24,6 +24,11 @@ In this demo project, you will find examples of our expertise in:
 - React
 - Tailwind CSS
 - EmailJS
+- ThreeJS
+- Framer Motion
+- SASS
+- Fort Awesome
+
 
 ## Screenshots
 ![ezgif com-video-to-gif](https://github.com/hesennov/DevIt-studio/assets/74564476/2f46ae27-0e19-4aba-9845-d93784777953)
