@@ -1,4 +1,5 @@
 import Typist from "react-typist";
+import "../index.css";
 
 const Testimonial = () => {
   return (
@@ -16,13 +17,13 @@ const Testimonial = () => {
           />
         </svg>
         <blockquote>
-          <p className="text-2xl font-medium text-black font-extralight">
+          <div className="text-2xl font-medium text-black font-extralight">
             <Typist>
               Devit Studio is just awesome. It contains tons of predesigned
               components and pages starting from login screen to complex
               dashboard. Perfect choice for your next application.
             </Typist>
-          </p>
+          </div>
         </blockquote>
         <div className="flex items-center justify-center mt-6 space-x-3">
           <img
