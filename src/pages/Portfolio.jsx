@@ -2,11 +2,11 @@ import { headerColor } from "../constant/colors";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
-import project1 from "../assets/project1.webp";
-import project2 from "../assets/project2.webp";
-import project3 from "../assets/project3.webp";
-import project4 from "../assets/project4.webp";
-import Carousel from "react-grid-carousel";
+// import project1 from "../assets/project1.webp";
+// import project2 from "../assets/project2.webp";
+// import project3 from "../assets/project3.webp";
+// import project4 from "../assets/project4.webp";
+// import Carousel from "react-grid-carousel";
 
 function Section({ children }) {
   const ref = useRef(null);
@@ -51,7 +51,7 @@ const ProjectPortfolio = () => {
           </Link>
         </div>
       </div>
-      <Carousel cols={2} rows={1} gap={10} loop={true}>
+      {/* <Carousel cols={2} rows={1} gap={10} loop={true}>
         <Carousel.Item>
           <img width="100%" src={project1} />
         </Carousel.Item>
@@ -64,7 +64,7 @@ const ProjectPortfolio = () => {
         <Carousel.Item>
           <img width="100%" src={project4} />
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 };
