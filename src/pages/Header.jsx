@@ -10,7 +10,7 @@ function Section({ children }) {
 
   return (
     <section ref={ref}>
-      <span
+      <div
         style={{
           transform: isInView ? "none" : "translateX(-100px)",
           opacity: isInView ? 1 : 0,
@@ -18,7 +18,7 @@ function Section({ children }) {
         }}
       >
         {children}
-      </span>
+      </div>
     </section>
   );
 }
