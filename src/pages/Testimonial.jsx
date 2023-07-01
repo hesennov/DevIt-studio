@@ -1,6 +1,3 @@
-import Typist from "react-typist";
-import "../index.css";
-
 const Testimonial = () => {
   return (
     <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
@@ -18,11 +15,9 @@ const Testimonial = () => {
         </svg>
         <blockquote>
           <div className="text-2xl font-medium text-black font-extralight">
-            <Typist>
-              Devit Studio is just awesome. It contains tons of predesigned
-              components and pages starting from login screen to complex
-              dashboard. Perfect choice for your next application.
-            </Typist>
+            Devit Studio is just awesome. It contains tons of predesigned
+            components and pages starting from login screen to complex
+            dashboard. Perfect choice for your next application.
           </div>
         </blockquote>
         <div className="flex items-center justify-center mt-6 space-x-3">
