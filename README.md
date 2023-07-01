@@ -30,8 +30,7 @@ In this demo project, you will find examples of our expertise in:
 - Fort Awesome
 
 ## Screenshots
-![ezgif com-video-to-gif (1)](https://github.com/hesennov/DevIt-studio/assets/74564476/f7f0feb5-f5a8-42f0-b514-3f02566f0b2b)
-
+![ezgif com-video-to-gif (4)](https://github.com/hesennov/DevIt-studio/assets/74564476/06463443-b804-433a-bef8-456cb3c9ea9a)
 
 ## Setup
 To run this demo project locally, please follow these steps:
