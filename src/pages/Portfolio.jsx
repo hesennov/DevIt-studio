@@ -1,11 +1,12 @@
 import { headerColor } from "../constant/colors";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import project1 from "../assets/project1.webp";
-import project2 from "../assets/project3.webp";
-import project3 from "../assets/project4.webp";
+import project2 from "../assets/project2.webp";
+import project3 from "../assets/project3.webp";
+import project4 from "../assets/project4.webp";
+import Carousel from "react-grid-carousel";
 
 function Section({ children }) {
   const ref = useRef(null);
@@ -31,64 +32,39 @@ const ProjectPortfolio = () => {
     <div>
       <div className="title-container flex flex-col lg:flex-row">
         <Section>
-          <motion.h1
+          <h1
             className="sm:whitespace-wrap md:whitespace-wrap lg:whitespace-nowrap text-5xl pt-2 md:pt-2 lg:pt-2 text-center md:text-center lg:text-left md:pr-0 lg:pr-16 font-bold"
             style={{ color: headerColor }}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
           >
             Project Portfolio
-          </motion.h1>
+          </h1>
         </Section>
         <div className="text-container lg:w-1/3 mx-auto text-center md:text-center lg:text-left">
-          <motion.p
-            className="pt-4 sm:pt-4 lg:pt-4 pb-4 text-center lg:text-left font-light"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
+          <p className="pt-4 sm:pt-4 lg:pt-4 pb-4 text-center lg:text-left font-light">
             Our project portfolio shows our accomplishments, skills, and
             expertise in the industry.
-          </motion.p>
+          </p>
           <Link to="/portfolio">
-            <motion.button
-              className="mb-10 rounded-xl text-xs uppercase font-light text-indigo-400 hover:text-indigo-800"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-            >
+            <button className="mb-10 rounded-xl text-xs uppercase font-light text-indigo-400 hover:text-indigo-800">
               View all &rarr;
-            </motion.button>
+            </button>
           </Link>
         </div>
       </div>
-      <div className="projects grid md:grid-cols-3 lg:grid-cols-3 gap-4">
-        <motion.img
-          src={project1}
-          className="max-w-full"
-          alt="Project1"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }} // Increased duration to 1 second
-        />
-        <motion.img
-          src={project2}
-          className="max-w-full"
-          alt="Project3"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }} // Increased duration to 1 second
-        />
-        <motion.img
-          src={project3}
-          className="max-w-full"
-          alt="Project4"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }} // Increased duration to 1 second
-        />
-      </div>
+      <Carousel cols={2} rows={1} gap={10} loop={true}>
+        <Carousel.Item>
+          <img width="100%" src={project1} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width="100%" src={project2} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width="100%" src={project3} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width="100%" src={project4} />
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
 };
