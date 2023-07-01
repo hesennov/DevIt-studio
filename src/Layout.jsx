@@ -21,7 +21,7 @@ const Layout = () => {
       <section className="mt-20">
         <Portfolio />
       </section>
-      <section className="mt-0">
+      <section className="mt-20">
         <Testimonial />
       </section>
       <section className="mt-24">

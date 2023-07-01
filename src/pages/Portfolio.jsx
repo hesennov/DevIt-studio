@@ -2,11 +2,13 @@ import { headerColor } from "../constant/colors";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
-// import project1 from "../assets/project1.webp";
-// import project2 from "../assets/project2.webp";
-// import project3 from "../assets/project3.webp";
-// import project4 from "../assets/project4.webp";
-// import Carousel from "react-grid-carousel";
+import project1 from "../assets/project1.webp";
+import project2 from "../assets/project2.webp";
+import project3 from "../assets/project3.webp";
+import project4 from "../assets/project4.webp";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Section({ children }) {
   const ref = useRef(null);
@@ -28,6 +30,16 @@ function Section({ children }) {
 }
 
 const ProjectPortfolio = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 100,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
+
   return (
     <div>
       <div className="title-container flex flex-col lg:flex-row">
@@ -51,20 +63,20 @@ const ProjectPortfolio = () => {
           </Link>
         </div>
       </div>
-      {/* <Carousel cols={2} rows={1} gap={10} loop={true}>
-        <Carousel.Item>
-          <img width="100%" src={project1} />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src={project2} />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src={project3} />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width="100%" src={project4} />
-        </Carousel.Item>
-      </Carousel> */}
+      <Slider {...settings}>
+        <div>
+          <img src={project1} />
+        </div>
+        <div>
+          <img src={project2} />
+        </div>
+        <div>
+          <img src={project3} />
+        </div>
+        <div>
+          <img src={project4} />
+        </div>
+      </Slider>
     </div>
   );
 };
